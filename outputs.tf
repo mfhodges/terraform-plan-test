@@ -9,3 +9,7 @@ output "resource_two" {
 output "resource_three" {
   value = terraform_data.resource_three.output
 }
+
+output "resource_four" {
+  value = terraform_data.resource_four.output
+}

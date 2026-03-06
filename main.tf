@@ -18,3 +18,11 @@ resource "terraform_data" "resource_three" {
     value = 3
   }
 }
+
+
+resource "terraform_data" "resource_four" {
+  input = {
+    name  = "resource-four"
+    value = 4
+  }
+}
